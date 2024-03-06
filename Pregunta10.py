@@ -1,0 +1,7 @@
+entrada = input("Por favor ingrese al menos 6 palabras separadas por espacios para formar una lista: ")
+lista = entrada.split()
+lista1 = entrada.split()
+lista1.remove(lista1[0])
+lista1.remove(lista1[3])
+lista1.remove(lista1[3])
+print(f"La lista original es {lista} y la lista después de eliminar los elementos que se encuentran en la posición 0, 4 y 5 es {lista1}")
