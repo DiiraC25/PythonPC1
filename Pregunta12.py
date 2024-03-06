@@ -1,7 +1,7 @@
 entrada = input("Por favor, ingrese los nombres de los archivos junto con sus respectivas extensiones, en el siguiente formato: 'nombredearchivo.extension', y separelos por espacios: ")
 archivos = entrada.split()
-extensiones = ['jpg', 'jpeg', 'pdf', 'txt', 'png', 'zip']
-tipos_mime = ['image/jpeg', 'image/jpeg', 'application/pdf', 'text/plain', 'image/png', 'application/zip']
+extensiones = ['jpg', 'jpeg', 'pdf', 'txt', 'png', 'zip', 'gif']
+tipos_mime = ['image/jpeg', 'image/jpeg', 'application/pdf', 'text/plain', 'image/png', 'application/zip', 'image/gif']
 extensiones_archivos = [archivo.lower().split('.')[-1] for archivo in archivos]
 tipos_mime_archivos = []
 for extension in extensiones_archivos:
